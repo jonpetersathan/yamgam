@@ -1,0 +1,37 @@
+staff:
+  Barb:
+    name: Barb Dwyer
+    role: Product Engineer
+    email: barb.dwyer@useless-products.local
+  Phil:
+    name: Phil McCracken
+    role: Analyst
+    email: phil.mccracken@useless-products.local
+  Otto:
+    name: Otto Mobile
+    role: Sales Specialist
+    email: otto.mobile@useless-products.local
+  Justin:
+    name: Justin Case
+    role: Product Engineer
+    email: justin.case@useless-products.local
+  Robin:
+    name: Robin Banks
+    role: Sales Specialist
+    email: robin.banks@useless-products.local
+  Paige:
+    name: Paige Turner
+    role: Analyst
+    email: paige.turner@useless-products.local
+  Barry:
+    name: Barry Cade
+    role: Product Engineer
+    email: barry.cade@useless-products.local
+  Anita:
+    name: Anita Bath
+    role: Analyst
+    email: anita.bath@useless-products.local
+  Hugh:
+    name: Hugh Mungus
+    role: Big Boss
+    email: hugh.mungus@useless-products.local

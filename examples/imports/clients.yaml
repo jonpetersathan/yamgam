@@ -1,0 +1,42 @@
+clients:
+  Toaster:
+    name: A Sentient Toaster
+    risk: High
+    note: Pays only in Bread Crumb
+    contacts:
+      - name: A Sentient Toaster
+        role: Chief Toasted Officer
+        email: crumbs@burnt-toast.io
+      - name: Timmy the Sentient Toaster
+        role: Head of Bread Combustion
+        email: brave.little@appliance.local
+  Raccoons:
+    name: Three Raccoons in a Trench Coat
+    risk: Medium
+    note: The One on Top
+    contacts:
+      - name: Bandit, Trash, and Scruff
+        role: Co-Directors of Shiny Object Procurement
+        email: snack.attack@trenchcoat.biz
+  Cloud:
+    name: A Cloud with Commitment Issues
+    risk: Low
+    note: Drifts away during meetings
+    contacts:
+      - name: Cirrus J. Fluffington
+        role: Vice President of Low-Pressure Systems
+        email: ghosting.you@silverlining.io
+      - name: Stanley the Petrified Rock
+        role: Chief Stability Officer
+        email: solid.foundation@geology.void
+  404Dogs:
+    name: 404 Small Dogs
+    risk: Medium
+    note: Client not found (too many distractions) 
+    contacts:
+      - name: Barnaby Barkington
+        role: Senior Tail-Wagging Analyst
+        email: who.is@a-good.boy
+      - name: General Mittens
+        role: Strategic Nap Coordinator
+        email: world.domination@catnip.meow

@@ -1,0 +1,16 @@
+products:
+  item1:
+    name: Left-Handed Screwdriver
+    price: 49.99
+    release: 2025-03-01
+    responsible: {{ staff.Barb }}
+  item2:
+    name: Waterproof Sponge
+    price: 42
+    release: 2021-01-01
+    responsible: {{ staff.Barry }}
+  item3:
+    name: Inflatable Anchor
+    price: 9000
+    release: 2027-08-27
+    responsible: {{ staff.Justin }}

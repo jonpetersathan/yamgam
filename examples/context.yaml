@@ -1,0 +1,24 @@
+config:
+  generators:
+    - name: DOCX Test
+      input: template.docx
+      output: document.docx
+    - name: XLSX Test
+      input: template.xlsx
+      output: spreadsheet.xlsx
+    - name: PPTX Test
+      input: template.pptx
+      output: presentation.pptx
+    - name: Text Test
+      input: template.md
+      output: text.md
+  context:
+    - imports/clients.yaml
+    - imports/products.yaml
+    - imports/staff.yaml
+
+sales:
+  - staff: {{ staff.Otto.name }}
+    product: {{ products.item1.name }}
+    quantity: 14
+    revenue: {{ products.item1.price + 2 }}
