@@ -1,8 +1,0 @@
-docxtpl
-pyyaml
-typer
-python-box
-xlsxtpl
-python-pptx
-openpyxl
-jinja2
