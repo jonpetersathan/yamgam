@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yamgam"
+version = "0.1.0"
+description = "A template rendering tool for docx, xlsx, and pptx files"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "docxtpl",
+    "pyyaml",
+    "typer",
+    "python-box",
+    "xlsxtpl",
+    "python-pptx",
+    "openpyxl",
+    "jinja2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+yamgam = "yamgam.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

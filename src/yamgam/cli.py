@@ -46,7 +46,7 @@ def main(
     else:
         config = utils.get_config(*paths)
     
-    is_config_needed = print_only or (input_file and output_file) or (dry_run and input_file)
+    is_config_needed = not (print_only or (input_file and output_file) or (dry_run and input_file))
     if config is None and is_config_needed:
         typer.echo(f"Error: No config found and not running in print (-p) mode.", err=True)
         raise typer.Exit(code=1)
@@ -57,7 +57,7 @@ def main(
             "input": input_file,
             "output": output_file
         })
-    elif "generators" in config:
+    elif config and "generators" in config:
         if not isinstance(config["generators"], list):
             typer.echo(f"Error: Invalid generator config.", err=True)
             raise typer.Exit(code=1)
@@ -74,7 +74,7 @@ def main(
                 "output": generator["output"]
             })
 
-    if "context" in config:
+    if config and "context" in config:
         if debug: print("Adding additional context to file list.")
         paths = paths + config["context"]
 
